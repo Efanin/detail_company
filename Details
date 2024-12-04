@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[Details] (
+    [id]     INT           NOT NULL,
+    [detail] NVARCHAR (50) NULL,
+    [price]  INT           NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
