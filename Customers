@@ -1,0 +1,5 @@
+CREATE TABLE [dbo].[Customers] (
+    [id]       INT           NOT NULL,
+    [customer] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
