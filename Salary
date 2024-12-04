@@ -1,0 +1,17 @@
+CREATE TABLE [dbo].[Salary] (
+    [id]            INT NOT NULL,
+    [salary]        INT NULL,
+    [bonus_maneger] INT NULL,
+    [bonus_sellers] INT NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (1, 30000, 5000, 1000)
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (2, 29000, 4000, 1000)
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (3, 31000, 4500, 1300)
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (4, 32000, 5500, 1500)
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (5, 31000, 6000, 900)
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (6, 29000, 4000, 950)
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (7, 30000, 5000, 1100)
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (8, 32000, 4000, 1200)
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (9, 33000, 5500, 1500)
+INSERT INTO [dbo].[Salary] ([id], [salary], [bonus_maneger], [bonus_sellers]) VALUES (10, 31000, 6000, 1400)
