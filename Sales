@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[Sales] (
+    [id]       INT           NOT NULL,
+    [customer] INT           NULL,
+    [detail]   INT           NULL,
+    [count]    INT           NULL,
+    [date]     NVARCHAR (50) NULL,
+    [seller]   INT           NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
