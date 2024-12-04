@@ -1,0 +1,16 @@
+CREATE TABLE [dbo].[Manegers] (
+    [id]    INT           NOT NULL,
+    [name]  NVARCHAR (50) NULL,
+    [bonus] INT           NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (1, N'Зайцев Андрей Владимирович', 1)
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (2, N'Смирнов Павел Евгеньевич', 2)
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (3, N'Сидоров Матвей Юрьевич', 1)
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (4, N'Соколова Марина Сергеевна', 1)
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (5, N'Егорова Софья Алексеевна', 2)
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (6, N'Новиков Дмитрий Николаевич', 2)
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (7, N'Смирнов Михаил Евгеньевич', 1)
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (8, N'Кузнецова Елизавета Владимировна', 2)
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (9, N'Ефанин Игорь Валерьевич', 3)
+INSERT INTO [dbo].[Manegers] ([id], [name], [bonus]) VALUES (10, N'Петров Михаил Петрович', 1)
